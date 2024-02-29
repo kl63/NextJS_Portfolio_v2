@@ -1,5 +1,5 @@
 {
-	"name": "Andrew Nelson",
+	"name": "Kevin Lin",
 	"logo": "",
 	
 	"username": {
@@ -8,8 +8,6 @@
 	},
 
 	"portfolio": { 
-		"forkthis": "Steal this theme! Its open-source 🥰",
-		"repo_html": "https://www.github.com/atlamors/portfolio",
-		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+		"copyright": "© 2024 Kevin Lin. All rights reserved."
 	}
 }
