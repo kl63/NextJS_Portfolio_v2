@@ -33,12 +33,13 @@ export default function Footer() {
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={css.sections}>
 					<ul className={css.thanks}>
-						<li><h4>Acknowledgments</h4></li>
+					<li><h4>{content.footerHeader}</h4></li>
 						{
-						content.acknowledgments.map( ({ person, link, note }, index) => {
+						content.footer.map( ({ title, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer">{title}</a>
+
 									<p>{note}</p>
 								</li>
 							)
@@ -46,12 +47,12 @@ export default function Footer() {
 						}
 					</ul>
 					<ul className={css.links}>
-						<li><h4>Links</h4></li>
+					<li><h4>{content.linkHeader}</h4></li>
 						{
-						content.links.map( ({ person, link, note }, index) => {
+						content.links.map( ({ title, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer">{title} </a>
 									<p>{note}</p>
 								</li>
 							)
@@ -59,7 +60,7 @@ export default function Footer() {
 						}
 					</ul>
 					<ul className={css.social}>
-						<li><h4>Social</h4></li>
+						<li><h4>{content.socialHeader}</h4></li>
 						<li className={css.socialList}>
 							{
 							content.social.map( ({ url, icon }, index) => {
@@ -82,3 +83,4 @@ export default function Footer() {
 		</footer>
 	)
 }
+

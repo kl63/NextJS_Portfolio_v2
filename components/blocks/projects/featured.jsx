@@ -12,7 +12,7 @@ import content 		from '../../../content/projects/featured.json'
 
 export default function FeaturedProject({ content }, index) {
 
-	const { project, url, repo, descriptionTitle,description, stack, imageOptions, images } = content
+	const { project, url, repoVisability, descriptionTitle,description, stack, imageOptions, images } = content
 
 	const controls = useAnimation();
 	const { ref, inView  } = useInView({
@@ -39,7 +39,7 @@ export default function FeaturedProject({ content }, index) {
 			<div className={css.details}>
 				<div className={css.projectHeader}>
 					<div className={css.header}>
-						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	
+						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repoVisability}</span>	
 					</div>
 					<div className={css.description}>
 						<p><strong>{descriptionTitle}</strong> {description}</p>

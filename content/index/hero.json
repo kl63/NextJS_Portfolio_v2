@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
+		"start": "const Kevin = ( name, passion ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -12,21 +12,21 @@
 
 	"header": {
 		"name": "Kevin Lin",
-		"usp": "I design and build meaningful experiences."
+		"usp": "I create tech solutions and push boundaries."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "I am a digital pioneer — always exploring code and ideas, driven by curiosity and committed to shaping the future of technology.",
 
 	"buttons": {
 		"primary": {
-			"title": "Contact Me",
-			"url": "",
-			"leaveSite": false
+		  "title": "Contact Me",
+		  "url": "mailto:lin.kevin.1923@gmail.com",
+		  "leaveSite": false
 		},
 		"secondary": {
-			"title": "LinkedIn",
-			"url": "",
-			"leaveSite": "true"
+		  "title": "LinkedIn",
+		  "url": "https://www.linkedin.com/in/linkevin19/",
+		  "leaveSite": true
 		}
+	  }
 	}
-}
