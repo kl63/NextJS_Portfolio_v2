@@ -1,0 +1,78 @@
+{
+  "titles": {
+    "education": {
+      "title": "Education",
+      "subTitle": "Formal Education"
+    },
+    "techSkills": {
+      "title": " Skills",
+      "subTitle": "Technical Skills"
+    },
+    "softSkills": {
+      "subTitle": "Soft Skills"
+    },
+    "courses": {
+      "title": "Relevant Courses",
+      "subTitle": "Technical Courses"
+    },
+    "experience": {
+      "title": "Experience",
+      "subTitle": "Work Experience"
+    }
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science in Web & Information Systems",
+      "university": "New Jersey Institute of Technology",
+      "minor": "Minor in Business",
+      "gpa": "GPA: 3.43",
+      "graduation": "May 2025",
+      "location": "Newark, New Jersey"
+    }
+  ],
+  "techSkillsList": [
+    { "name": "Java"},
+    { "name": "JavaScript"},
+    { "name": "HTML5"},
+    { "name": "CSS"},
+    { "name": "Python"},
+    { "name": "SQL"},
+    { "name": "Next.Js Framework"},
+    { "name": "GitHub Actions"},
+    { "name": "MS SQL Server"},
+    { "name": "MS Project"},
+    { "name": "Docker"},
+    { "name": "CI/CD Pipeline"}
+
+  ],
+  "softSkillsList": [
+    { "name": "Problem-Solving"},
+    { "name": "Communication"},
+    { "name": "Project Management"},
+    { "name": "Team Collaboration"},
+    { "name": "Time Management"}
+
+  ],
+  "courses": [
+    { "name": "Advanced Web Development"},
+    { "name": "Web Applications"},
+    { "name": "Object-Oriented Programming"},
+    { "name": "Python Programming"},
+    { "name": "Database Design/Management"},
+    { "name": "esigning User Experience"}
+
+  ],
+  "experience": [
+    {
+      "name": "CVS Pharmacy",
+      "type": "Front-Store Associate",
+      "duration": "Jun 2022 - Present",
+      "location": "Kearny, New Jersey",
+      "description": [
+        "- Welcome customers and maintain a clean, organized store environment.",
+        "- Thrived in a team-oriented environment, collaborating with colleagues.",
+        "- Serve as Section Leader for the Household and Stationary departments, overseeing inventory control and ensuring timely replenishment while promoting the Extracare+ program for increased sign-ups."
+      ]
+    }
+  ]
+}

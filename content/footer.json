@@ -1,50 +1,44 @@
 {
-	"acknowledgments": [
+	"footerHeader": "Pages",
+	"footer": [
 		{ 
-			"person": "Jihad Hassan - Marketing Director",
-			"link": "",
+			"title": "Resume",
+			"link": "/resume",
 			"note": "Thank you for all the advice and feedback."
 		},
 		{ 
-			"person": "Colorpong - Artist",
-			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
+			"title": "About Me",
+			"link": "/",
 			"note": "Checkout their amazing vector illustrations."
 		},
 		{ 
-			"person": "Brittany Chiang - Software Engineer",
-			"link": "https://brittanychiang.com/",
+			"title": "Projects",
+			"link": "/projects",
 			"note": "A major inspiration to create an open source theme."
 		},
 		{ 
-			"person": "Vercel - Platform",
+			"title": "Vercel - Platform",
 			"link": "https://vercel.com/docs",
 			"note": "Host your own Next.js project for free!"
 		}
 	],
 
+	"linkHeader": "Links",
 	"links": [
 		{ 
-			"person": "YWFT Creative Marketplace",
+			"title": "YWFT Creative Marketplace",
 			"link": "https://www.youworkforthem.com/?aff=1115",
 			"note": "Best in class creative assets."
 		}
 	],
-
+	"socialHeader": "Social",
 	"social": [
 		{
-			"url": "https://medium.com/@--andrewnelson",
-			"icon": "medium"
-		},
-		{
-			"url": "https://dev.to/andrewnelson",
-			"icon": "dev"
-		},
-		{
-			"url": "https://www.linkedin.com/in/--andrewnelson/",
+			"url": "https://www.linkedin.com/in/linkevin19/",
 			"icon": "linkedin"
 		},
 		{
-			"url": "https://github.com/atlamors",
+			"url": "https://github.com/kl63",
 			"icon": "github"
 		}
 	]
