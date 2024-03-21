@@ -13,6 +13,7 @@ import HeroBg from '../../blocks/hero.bg/bg-color-1';
 import hero from '../../../styles/sections/index/hero.module.scss';
 import button from '../../../styles/blocks/button.module.scss';
 
+//JSON import
 import content from '../../../content/index/hero.json'
 
 

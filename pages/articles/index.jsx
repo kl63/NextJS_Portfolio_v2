@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Recent from '../../components/sections/articles/recent';
 import Color from '../../components/utils/page.colors.util';
 import colors from '../../content/articles/_colors.json';
-import settings from '../../content/_settings.json';
+import settings from '../../content/layout/settings.json';
 
 export default function Articles({ mediumArticles }) {
     return (
@@ -29,17 +29,15 @@ export async function getServerSideProps({ res }) {
         mediumRSS.json(),
     ]);
 
-    // Log the number of articles fetched
     console.log(`Number of articles fetched: ${mediumArticles.items.length}`);
 
-    // Extract thumbnail URLs from article descriptions using regex
     mediumArticles.items.forEach(item => {
         const description = item.description.toString();
         const thumbnailUrlMatch = description.match(/<img[^>]+src="([^">]+)"/);
         if (thumbnailUrlMatch && thumbnailUrlMatch[1]) {
-            item.thumbnail = thumbnailUrlMatch[1]; // Assign the matched thumbnail URL to the thumbnail property
+            item.thumbnail = thumbnailUrlMatch[1]; 
         } else {
-            item.thumbnail = ''; // Set a default value if no thumbnail URL is found
+            item.thumbnail = ''; 
         }
     });
 

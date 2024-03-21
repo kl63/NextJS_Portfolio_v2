@@ -1,0 +1,33 @@
+{
+	"footerHeader": "Pages",
+	"footer": [
+		{ 
+			"title": "Resume",
+			"link": "/resume",
+			"note": "Thank you for all the advice and feedback."
+		},
+		{ 
+			"title": "About Me",
+			"link": "/",
+			"note": "Checkout their amazing vector illustrations."
+		},
+		{ 
+			"title": "Projects",
+			"link": "/projects",
+			"note": "A major inspiration to create an open source theme."
+		}
+		
+	],
+
+	"socialHeader": "Social",
+	"social": [
+		{
+			"url": "https://www.linkedin.com/in/linkevin19/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/kl63",
+			"icon": "github"
+		}
+	]
+}

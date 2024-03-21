@@ -1,7 +1,6 @@
 // Core packages
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import data from '/components/about/aboutData.json'; // Import JSON data
+
 
 // Section structure
 import Section from '../structure/section';
@@ -9,7 +8,6 @@ import Container from '../structure/container';
 
 // Section general blocks
 import SectionTitle from '../blocks/section.title.block';
-import SectionGridBg from '../blocks/section.grid.block';
 
 // Section specific blocks
 import BadgesBlock from '../blocks/about.badges.block';
@@ -17,6 +15,9 @@ import CopyBlock from '../blocks/about.copy.block';
 
 // Section scss
 import about from '../../styles/sections/index/about.module.scss';
+
+//JSON import
+import data from '../../content/index/aboutData.json'; 
 
 /**
  * Section: About

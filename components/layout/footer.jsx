@@ -5,8 +5,8 @@ import Icon from '../utils/icon.util'
 
 import css from '../../styles/structure/footer.module.scss'
 
-import content from '../../content/footer.json'
-import settings from '../../content/_settings.json'
+import content from '../../content/layout/footer.json'
+import settings from '../../content/layout/settings.json'
 
 export default function Footer() {
 	
@@ -46,19 +46,7 @@ export default function Footer() {
 						})
 						}
 					</ul>
-					<ul className={css.links}>
-					<li><h4>{content.linkHeader}</h4></li>
-						{
-						content.links.map( ({ title, link, note }, index) => {
-							return (
-								<li key={index}>
-									<a href={link} rel="noreferrer">{title} </a>
-									<p>{note}</p>
-								</li>
-							)
-						})
-						}
-					</ul>
+				
 					<ul className={css.social}>
 						<li><h4>{content.socialHeader}</h4></li>
 						<li className={css.socialList}>
