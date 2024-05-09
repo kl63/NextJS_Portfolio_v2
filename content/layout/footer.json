@@ -4,31 +4,31 @@
 		{ 
 			"title": "Resume",
 			"link": "/resume",
-			"note": "Thank you for all the advice and feedback."
+			"note": "Explore My Professional Journey"
 		},
 		{ 
 			"title": "About Me",
 			"link": "/",
-			"note": "Checkout their amazing vector illustrations."
+			"note": "Discover My Story"
 		},
 		{ 
 			"title": "Projects",
 			"link": "/projects",
-			"note": "A major inspiration to create an open source theme."
-		},
-		{ 
-			"title": "Vercel - Platform",
-			"link": "https://vercel.com/docs",
-			"note": "Host your own Next.js project for free!"
+			"note": "Dive into My Work"
 		}
 	],
 
 	"linkHeader": "Links",
 	"links": [
 		{ 
-			"title": "YWFT Creative Marketplace",
-			"link": "https://www.youworkforthem.com/?aff=1115",
-			"note": "Best in class creative assets."
+			"title": "Articles",
+			"link": "/articles",
+			"note": "Explore My Writing"
+		},
+		{ 
+			"title": "Projects",
+			"link": "/projects",
+			"note": "Uncover My Projects"
 		}
 	],
 	"socialHeader": "Social",
