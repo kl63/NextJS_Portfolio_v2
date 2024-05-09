@@ -5,8 +5,8 @@ import Icon from '../utils/icon.util'
 
 import css from '../../styles/structure/footer.module.scss'
 
-import content from '../../content/footer.json'
-import settings from '../../content/_settings.json'
+import content from '../../content/layout/footer.json' //JSON FILE
+import settings from '../../content/layout/_settings.json' //JSON FILE
 
 export default function Footer() {
 	
