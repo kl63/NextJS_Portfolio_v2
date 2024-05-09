@@ -1,7 +1,7 @@
 // Core packages
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import data from '/components/about/aboutData.json'; // Import JSON data
+import data from '../../content/about/aboutData.json'; // JSON FILE
 
 // Section structure
 import Section from '../structure/section';

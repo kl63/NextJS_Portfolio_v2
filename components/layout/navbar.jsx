@@ -4,8 +4,8 @@ import {useRouter} from 'next/router';
 import Link from 'next/link'
 import ThemeMode from '../utils/theme.util'
 
-import settings from '../../content/_settings.json'
-import content  from '../../content/navbar.json'
+import settings from '../../content/layout/_settings.json'//JSON FILE
+import content  from '../../content/layout/navbar.json' //JSON FILE
 import css from '../../styles/structure/navbar.module.scss'
 
 export default function Navbar() {
