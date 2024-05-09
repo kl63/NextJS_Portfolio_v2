@@ -1,35 +1,18 @@
-// Core packages
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import data from '../../content/about/aboutData.json'; // JSON FILE
-
-// Section structure
+import data from '../../content/about/aboutData.json';
 import Section from '../structure/section';
 import Container from '../structure/container';
-
-// Section general blocks
 import SectionTitle from '../blocks/section.title.block';
 import SectionGridBg from '../blocks/section.grid.block';
-
-// Section specific blocks
 import BadgesBlock from '../blocks/about.badges.block';
 import CopyBlock from '../blocks/about.copy.block';
-
-// Section scss
 import about from '../../styles/sections/index/about.module.scss';
 
-/**
- * Section: About
- * An overview of yourself.
- * Highlight your top level attributes and disciplines.
- * 
- * @returns {jsx} <About />
- */
 export default function About() {
-  const [methods, setMethods] = useState([]); // State to hold methods
+  const [methods, setMethods] = useState([]);
 
   useEffect(() => {
-    // Set methods from the imported JSON data
     setMethods(data.methods);
   }, []);
 
@@ -43,7 +26,13 @@ export default function About() {
         />
         <section className={about.content}>
           <div className={about.image}>
-            <img src={data.image} alt={data.imgAlt} />
+            <Image
+              src={data.image}
+              alt={data.imgAlt}
+              width={600} 
+              height={995} 
+              layout="responsive"
+            />
           </div>
           <div className={about.copy}>
             <CopyBlock
@@ -61,7 +50,6 @@ export default function About() {
               block="methods"
               icon="fingerprint"
               copy={data.skilsDescription}
-              //invertedColor="invertedColor"
               headerIcon={`${about.icon}`}
             />
           </div>
