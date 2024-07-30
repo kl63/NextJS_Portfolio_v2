@@ -1,0 +1,43 @@
+```
+└── 📁styles
+    └── 📁blocks
+        └── badges.module.scss
+        └── button.module.scss
+        └── section.grid.module.scss
+        └── section.title.module.scss
+    └── 📁css
+        └── global.css
+        └── global.css.map
+        └── variables.css
+        └── variables.css.map
+    └── 📁scss
+        └── _mixins.scss
+        └── _variables.scss
+        └── global.scss
+        └── variables.scss
+    └── 📁sections
+        └── 📁articles
+            └── recent.module.scss
+        └── 📁evotunes
+            └── forms.module.scss
+        └── 📁icons
+            └── iconForm.module.scss
+        └── 📁index
+            └── about.module.scss
+            └── career.module.scss
+            └── hero.module.scss
+            └── looking.module.scss
+        └── 📁projects
+            └── featured.module.scss
+            └── recent.module.scss
+    └── 📁structure
+        └── container.module.scss
+        └── footer.module.scss
+        └── navbar.module.scss
+        └── section.module.scss
+    └── 📁utils
+        └── animations.module.scss
+        └── page.colors.module.scss
+        └── spacing.module.scss
+        └── theme.module.scss
+```

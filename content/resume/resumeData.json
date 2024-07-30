@@ -25,53 +25,63 @@
       "degree": "Bachelor of Science in Web & Information Systems",
       "university": "New Jersey Institute of Technology",
       "minor": "Minor in Business",
-      "gpa": "GPA: 3.43",
+      "gpa": "GPA: 3.56",
       "graduation": "May 2025",
       "location": "Newark, New Jersey"
     }
   ],
-  "techSkillsList": [
+"techSkillsList": [
+    { "name": "Asciidoctor"},
+    { "name": "Azure DevOps"},
+    { "name": "CI/CD Pipeline"},
+    { "name": "CSS"},
+    { "name": "Docker"},
+    { "name": "GitHub Actions"},
+    { "name": "HTML5"},
     { "name": "Java"},
     { "name": "JavaScript"},
-    { "name": "HTML5"},
-    { "name": "CSS"},
-    { "name": "Python"},
-    { "name": "SQL"},
-    { "name": "Next.Js Framework"},
-    { "name": "GitHub Actions"},
-    { "name": "MS SQL Server"},
     { "name": "MS Project"},
-    { "name": "Docker"},
-    { "name": "CI/CD Pipeline"}
-
-  ],
-  "softSkillsList": [
-    { "name": "Problem-Solving"},
-    { "name": "Communication"},
-    { "name": "Project Management"},
-    { "name": "Team Collaboration"},
-    { "name": "Time Management"}
-
-  ],
-  "courses": [
-    { "name": "Advanced Web Development"},
-    { "name": "Web Applications"},
-    { "name": "Object-Oriented Programming"},
-    { "name": "Python Programming"},
-    { "name": "Database Design/Management"},
-    { "name": "esigning User Experience"}
-
-  ],
+    { "name": "MS SQL Server"},
+    { "name": "Next.Js Framework"},
+    { "name": "Python"},
+    { "name": "SQL"}
+],
+"softSkillsList": [
+  { "name": "Communication"},
+  { "name": "Problem-Solving"},
+  { "name": "Project Management"},
+  { "name": "Team Collaboration"},
+  { "name": "Time Management"}
+],
+"courses": [
+  { "name": "Advanced Web Development"},
+  { "name": "Database Design/Management"},
+  { "name": "Designing User Experience"},
+  { "name": "Object-Oriented Programming"},
+  { "name": "Python Programming"},
+  { "name": "Web Applications"}
+],
   "experience": [
     {
       "name": "CVS Pharmacy",
-      "type": "Front-Store Associate",
+      "type": "Front-Store Shift Supervisor",
       "duration": "Jun 2022 - Present",
       "location": "Kearny, New Jersey",
       "description": [
-        "- Welcome customers and maintain a clean, organized store environment.",
+        "- Manage a team, delegate tasks, provide support, and foster a positive work environment to ensure high performance and productivity.",
         "- Thrived in a team-oriented environment, collaborating with colleagues.",
         "- Serve as Section Leader for the Household and Stationary departments, overseeing inventory control and ensuring timely replenishment while promoting the Extracare+ program for increased sign-ups."
+      ]
+    },
+    {
+      "name": "MetLife Group",
+      "type": "INROADS Product Development Intern",
+      "duration": "Jun 2024 - Aug 2024",
+      "location": "Bridegwater, New Jersey",
+      "description": [
+        "- Acted as Scrum Master, facilitating Agile ceremonies and ensuring adherence to Scrum principles, improving team efficiency and project delivery timelines.",
+        "- Collaborated with developers to assist in coding, debugging, and testing software applications, gaining hands-on experience and deepening understanding of development workflows.",
+        "- Conducted thorough website reviews, identifying usability issues and recommending enhancements to improve overall user experience and interface design."
       ]
     }
   ]

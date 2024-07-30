@@ -1,0 +1,43 @@
+```
+└── 📁components
+    └── 📁about
+        └── about.jsx
+    └── 📁blocks
+        └── about.badges.block.jsx
+        └── about.copy.block.jsx
+        └── 📁hero.bg
+            └── bg-color-1.jsx
+        └── hero.bg.block.jsx
+        └── 📁projects
+            └── featured.jsx
+        └── section.grid.block.jsx
+        └── section.title.block.jsx
+    └── 📁layout
+        └── footer.jsx
+        └── layout.jsx
+        └── navbar.jsx
+    └── 📁resume
+        └── resume.jsx
+    └── 📁sections
+        └── 📁articles
+            └── recent.jsx
+        └── comingsoon.jsx
+        └── 📁index
+            └── hero.jsx
+            └── 📁json
+            └── looking.jsx
+            └── technical.jsx
+        └── 📁projects
+            └── featured.jsx
+            └── recent.jsx
+    └── 📁structure
+        └── container.jsx
+        └── section.jsx
+    └── 📁utils
+        └── badge.list.util.jsx
+        └── icon.util.jsx
+        └── page.colors.util.jsx
+        └── set.grid.util.jsx
+        └── spacing.util.jsx
+        └── theme.util.jsx
+```
