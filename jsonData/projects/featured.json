@@ -1,0 +1,73 @@
+[
+	{
+		"project": "MyWebClass.org",
+		"url": "https://my-web-class-org.vercel.app/",
+		"repoVisability": "Public",
+		"descriptionTitle": "Unlocking Potential:",
+		"description": "MyWebClass.org empowering Software Engineers",
+		"imageOptions": [
+		],
+		"images": [
+			{"hover": "right", 	"h": "200", "w": "250", "url": "/img/MacBook_MWC.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 			"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "google",		"name": "Goggle Analytics", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git", 	"type": "devicon" },
+			{ "key": "github",		"name": "GitHub/ GitHub Actions", 	"type": "devicon" },
+			{ "key": "nodejs",		"name": "Node JS", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "www.kevinlinportfolio.com",
+		"url": "https://www.kevinlinportfolio.com/",
+		"repoVisability": "Public",
+		"descriptionTitle": "A portfolio of my works:",
+		"description": "Built on Next.js and React. A fast and agile MERN stack single page application.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{"hover": "right", 	"h": "200", "w": "250", "url": "/img/MacBook_MWC.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 			"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "jquery", 		"name": "jQuery", 		"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "google",		"name": "Goggle Analytics", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git", 	"type": "devicon" },
+			{ "key": "github",		"name": "GitHub/ GitHub Actions", 	"type": "devicon" },
+			{ "key": "nodejs",		"name": "Node JS", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "FASTAPI Event Management",
+		"url": "https://github.com/kl63/is219_user_management/tree/main",
+		"repoVisability": "Public",
+		"descriptionTitle": "",
+		"description": "A robust foundation for an event management system",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{"hover": "right", 	"h": "200", "w": "250", "url": "/img/MacBook_MWC.png" }
+		],
+		"stack": [
+			{ "key": "python",     "name": "Python",      "type": "devicon" },
+			{ "key": "fastapi",    "name": "FastAPI",     "type": "devicon" },
+			{ "key": "docker",     "name": "Docker",      "type": "devicon" },
+			{ "key": "pytest",     "name": "Pytest",      "type": "devicon" },
+			{ "key": "postgres",   "name": "PostgreSQL",  "type": "devicon" },
+			{ "key": "pylint",     "name": "Pylint",      "type": "devicon" }
+		]
+		
+	}
+]

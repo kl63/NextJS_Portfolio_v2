@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import Recent from '../../components/sections/articles/recent';
+import Recent from '../../components/articles/articles';
 import Color from '../../components/utils/page.colors.util';
-import colors from '../../content/articles/_colors.json';
-import settings from '../../content/layout/_settings.json';
+import colors from '../../jsonData/articles/_colors.json';
+import settings from '../../jsonData/layout/_settings.json';
 
 export default function Articles({ mediumArticles }) {
     return (

@@ -1,0 +1,45 @@
+{
+	"footerHeader": "Pages",
+	"footer": [
+		{ 
+			"title": "Resume",
+			"link": "/resume",
+			"note": "Explore My Professional Journey"
+		},
+		{ 
+			"title": "About Me",
+			"link": "/",
+			"note": "Discover My Story"
+		},
+		{ 
+			"title": "Projects",
+			"link": "/projects",
+			"note": "Dive into My Work"
+		}
+	],
+
+	"linkHeader": "Links",
+	"links": [
+		{ 
+			"title": "Articles",
+			"link": "/articles",
+			"note": "Explore My Writing"
+		},
+		{ 
+			"title": "Projects",
+			"link": "/projects",
+			"note": "Uncover My Projects"
+		}
+	],
+	"socialHeader": "Social",
+	"social": [
+		{
+			"url": "https://www.linkedin.com/in/linkevin19/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/kl63",
+			"icon": "github"
+		}
+	]
+}
