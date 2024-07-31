@@ -3,12 +3,11 @@ import Badges from '../utils/badge.list.util';
 import Section from '../structure/section';
 import Container from '../structure/container';
 import SectionTitle from '../blocks/section.title.block';
-import career from '../../styles/sections/index/career.module.scss';
-import careerData from '../../content/resume/resumeData.json'; //JSON FILE
-import FeaturedProjects	from '../../components/sections/projects/featured'
+import career from '../../styles/homePage/resume.module.scss';
+import resumeData from '../../jsonData/resume/resumeData.json'; // JSON FILE
 
-export default function Career() {
-    const { education, experience, techSkillsList, softSkillsList, courses, titles } = careerData;
+export default function Resume() {
+    const { education, experience, techSkillsList, softSkillsList, courses, titles } = resumeData;
 
     return (
         <Section classProp={`${career.section} borderBottom`}>
@@ -21,6 +20,7 @@ export default function Career() {
                     />
                     {education.map((edu, index) => (
                         <article key={index} className={career.company}>
+                            <img src={edu.logo} alt={`${edu.university} Logo`} className={career.companyLogo} />
                             <div className={career.companyContent}>
                                 <span className={career.companyHeader}>
                                     <h3>{edu.university}</h3>
@@ -35,7 +35,7 @@ export default function Career() {
                         </article>
                     ))}
                 </section>
-                {/* Technical/Soft  Skills Section */}
+                {/* Technical/Soft Skills Section */}
                 <section className={career.area}>
                     <SectionTitle
                         title={titles.techSkills.title}
@@ -54,10 +54,8 @@ export default function Career() {
                         subTitle={titles.courses.subTitle}
                     />
                     <Badges list={courses.map(course => ({ name: course.name }))} block="stack" fullContainer="fullContainer" />
-                    <FeaturedProjects />
                 </section>
-
-                {/* Experience Section*/}
+                {/* Experience Section */}
                 <section className={career.area}>
                     <SectionTitle
                         title={titles.experience.title}
@@ -65,6 +63,7 @@ export default function Career() {
                     />
                     {experience.map((exp, index) => (
                         <article key={index} className={career.company}>
+                            <img src={exp.logo} alt={`${exp.name} Logo`} className={career.companyLogo} />
                             <div className={career.companyContent}>
                                 <span className={career.companyHeader}>
                                     <h3>{exp.name}</h3>
@@ -91,9 +90,6 @@ export default function Career() {
                             <div className={career.companyAlt}></div>
                         </article>
                     ))}
-                </section>
-                <section>
-                   
                 </section>
             </Container>
         </Section>

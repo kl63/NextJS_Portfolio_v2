@@ -1,0 +1,27 @@
+{
+	"intro": {
+		"start": "const Kevin = ( name, passion ) =>",
+		"end": "Hello, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Kevin Lin",
+		"usp": "I bring tech ideas to life."
+	},
+
+	"paragraph": "I am a software engineer driven by curiosity, constantly exploring new code and innovative ideas to shape the future of technology.",
+
+	"buttons": {
+		"primary": {
+		  "title": "Connect with me on LinkedIn",
+		  "url": "https://www.linkedin.com/in/linkevin19/",
+		  "leaveSite": true
+		}
+	  }
+	}

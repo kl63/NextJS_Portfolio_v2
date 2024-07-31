@@ -1,8 +1,5 @@
 import Color 	from '../../components/utils/page.colors.util'
-import ComingSoon from '../../components/sections/comingsoon'
-
-import colors 		from '../../content/resume/_colors.json'
-import settings 	from '../../content/layout/_settings.json'
+import colors 		from '../../jsonData/resume/_colors.json'
 import Resume from '../../components/resume/resume';
 
 
@@ -10,8 +7,7 @@ import Resume from '../../components/resume/resume';
 export default function ResumePage({}) {
 	return (
 		<>	
-			<Color colors={colors} />
-			{/*<ComingSoon /> */}
+			<Color colors={colors} />	
 			<Resume />
 			
 		</>
