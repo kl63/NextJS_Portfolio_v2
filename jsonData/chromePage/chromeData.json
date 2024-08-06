@@ -1,20 +1,24 @@
-
 [
-    {
-      "name": "Google",
-      "url": "https://www.google.com"
-    },
-    {
-      "name": "YouTube",
-      "url": "https://www.youtube.com"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://www.github.com"
-    },
-    {
-      "name": "Stack Overflow",
-      "url": "https://stackoverflow.com"
-    }
-  ]
-  
+  {
+    "name": "Google",
+    "url": "https://www.google.com"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Stack Overflow",
+    "url": "https://stackoverflow.com"
+  },
+  {
+    "name": "Motivational Quotes",
+    "quotes": [
+      "Believe you can and you're halfway there.",
+      "The only way to do great work is to love what you do.",
+      "The best time to plant a tree was 20 years ago. The second best time is now.",
+      "Success usually comes to those who are too busy to be looking for it.",
+      "Don't watch the clock; do what it does. Keep going."
+    ]
+  }
+]

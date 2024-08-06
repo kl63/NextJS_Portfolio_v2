@@ -1,10 +1,20 @@
 // components/chromePage/chromePage.jsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from '../../styles/chromePage/chromePage.module.css';
-import bookmarks from '../../jsonData/chromePage/chromeData.json'; // Import the JSON file
+import bookmarksData from '../../jsonData/chromePage/chromeData.json'; // Import the JSON file
 
 const ChromePage = () => {
   const [query, setQuery] = useState('');
+  const [quote, setQuote] = useState('');
+
+  // Extract quotes from the JSON data
+  const quotes = bookmarksData.find(item => item.name === "Motivational Quotes")?.quotes || [];
+
+  useEffect(() => {
+    // Select a random quote
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    setQuote(randomQuote);
+  }, [quotes]);
 
   // Function to get the appropriate greeting based on the time of day
   const getGreeting = () => {
@@ -41,15 +51,22 @@ const ChromePage = () => {
           />
           <button type="submit" className={styles.searchButton}>Google Search</button>
         </form>
+        <section className={styles.quoteSection}>
+          <blockquote className={styles.quote}>
+            {quote}
+          </blockquote>
+        </section>
         <section className={styles.bookmarks}>
           <h2>Bookmarks</h2>
           <ul className={styles.bookmarkList}>
-            {bookmarks.map((bookmark) => (
-              <li key={bookmark.url} className={styles.bookmarkItem}>
-                <a href={bookmark.url} className={styles.bookmarkLink} target="_blank" rel="noopener noreferrer">
-                  {bookmark.name}
-                </a>
-              </li>
+            {bookmarksData.map((bookmark) => (
+              bookmark.quotes ? null : (
+                <li key={bookmark.url} className={styles.bookmarkItem}>
+                  <a href={bookmark.url} className={styles.bookmarkLink} target="_blank" rel="noopener noreferrer">
+                    {bookmark.name}
+                  </a>
+                </li>
+              )
             ))}
           </ul>
         </section>

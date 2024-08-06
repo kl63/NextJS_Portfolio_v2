@@ -1,12 +1,26 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import Head from 'next/head';
 import Recent from '../../components/articles/articles';
 import Color from '../../components/utils/page.colors.util';
 import colors from '../../jsonData/articles/_colors.json';
 import settings from '../../jsonData/layout/_settings.json';
+import navbar from '../../jsonData/layout/navbar.json'; // Your JSON with URLs and titles
 
 export default function Articles({ mediumArticles }) {
+    const router = useRouter();
+    
+    useEffect(() => {
+        const currentPath = router.pathname;
+        const currentPage = navbar.find(page => page.url === currentPath);
+
+    }, [router.pathname]);
+
     return (
         <>
+            <Head>
+                <title>{navbar.find(page => page.url === router.pathname)?.title}</title>
+            </Head>
             <Color colors={colors} />
             <Recent mediumArticles={mediumArticles} />
         </>
