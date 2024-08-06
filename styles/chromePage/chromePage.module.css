@@ -108,3 +108,16 @@
   font-size: 0.9rem;
   color: #888;
 }
+/* Existing styles */
+
+.quoteSection {
+  margin: 20px 0;
+}
+
+.quote {
+  font-style: italic;
+  text-align: center;
+  border-left: 2px solid #ccc;
+  padding-left: 10px;
+  color: #555;
+}
