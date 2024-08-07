@@ -7,9 +7,7 @@
 		"description": "MyWebClass.org empowering Software Engineers",
 		"imageOptions": [
 		],
-		"images": [
-			{"hover": "right", 	"h": "200", "w": "250", "url": "/img/MacBook_MWC.png" }
-		],
+		
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 			"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
