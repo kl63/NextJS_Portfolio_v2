@@ -9,7 +9,7 @@ import Icon from '../../utils/icon.util';
 import css from '../../../styles/projects/featured.module.scss';
 
 export default function FeaturedProject({ content, index }) {
-    const { project, url, repoVisability, descriptionTitle, description, stack, imageOptions, images } = content;
+    const { project, url, repoVisability, descriptionTitle, description, stack, imageOptions } = content;
 
     const controls = useAnimation();
     const { ref, inView } = useInView({
@@ -50,24 +50,11 @@ export default function FeaturedProject({ content, index }) {
                             <Badges list={stack} block="stack" fullContainer={false} color={false} />
                         </div>
                         <m.div variants={''} className={css.viewProject}>
-                            <Icon icon={['fad', 'arrow-right-to-bracket']} />
+                            
                         </m.div>
                     </div>
                 </div>
-                <div className={css.imageContainer}>
-                    <span className={css.imageAnimationContainer}>
-                        {images.map(({ key, url, hover, h, w }, index) => {
-                            const hoverAnimation = (hover === 'left') ? hoverLeft : hoverRight;
-                            return (
-                                <m.div key={`${index}-${key}`} variants={item}>
-                                    <m.div variants={hoverAnimation}>
-                                        <Image src={url} alt="project image" height={h} width={w} />
-                                    </m.div>
-                                </m.div>
-                            );
-                        })}
-                    </span>
-                </div>
+                
             </a>
         </m.section>
     );

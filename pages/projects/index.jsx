@@ -9,7 +9,7 @@ import Color from '../../components/utils/page.colors.util';
 
 import settings from '../../jsonData/layout/_settings.json';
 import colors from '../../jsonData/projects/_colors.json';
-import navbar from '../../jsonData/layout/navbar.json'; // Import your navbar.json
+import navbar from '../../jsonData/layout/navbar.json'; 
 
 export default function Projects({ user, repos }) {
     const router = useRouter();
@@ -22,7 +22,7 @@ export default function Projects({ user, repos }) {
     return (
         <>
             <Head>
-                <title>{navbar.find(page => page.url === router.pathname)?.title || 'Default Title'}</title>
+                <title>{navbar.find(page => page.url === router.pathname)?.title}</title>
             </Head>
             <Color colors={colors} />
             <FeaturedProjects />
